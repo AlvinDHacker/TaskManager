@@ -4,14 +4,26 @@ import Tasks from './Tasks'
 
 const Home = () => {
   return (
-    <div>
+    <>
+    <div className='md:block hidden'>
       <div className='grid grid-cols-6'>
         <div>
             <Weekday/>
         </div>
-        <div className='col-span-2'><Tasks/></div>
+        <div className='col-span-3'><Tasks/></div>
       </div>
     </div>
+    <div className='md:hidden '>
+      <div className='grid grid-rows-5'>
+        <div>
+        <Weekday/>
+        </div>
+        <div className='mx-10'>
+          <Tasks/>
+        </div>
+      </div>
+    </div>
+    </>
   )
 }
 

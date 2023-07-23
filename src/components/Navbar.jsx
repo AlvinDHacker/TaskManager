@@ -12,7 +12,8 @@ const Navbar = () => {
     };
 
   return (
-    <div className='sticky top-0'>
+    <>
+    <div className='md:hidden sticky backdrop-blur-3xl top-0 z-10'>
       <div className='flex shadow-lg'>
         <div className="flex lg:flex-1 md:hidden m-3">
           <a href="#" className="-m-1.5 p-1.5">
@@ -46,6 +47,8 @@ const Navbar = () => {
         ) :
           ('')
       }
+      </div>
+      <div className='md:block hidden'>
       <div className='sticky top-0 backdrop-blur-3xl z-10 mx-auto shadow-lg'>
         <div className='flex w-full'>
           <div className="flex lg:flex-1 m-4">
@@ -76,6 +79,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
