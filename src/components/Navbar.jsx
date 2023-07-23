@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { AiOutlineMenu } from 'react-icons/ai';
 import { BsPerson } from 'react-icons/bs';
-import logo from '../assets/react.svg'
+import logo from '../assets/logo.jpg'
 
 const Navbar = () => {
 
@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex lg:flex-1 md:hidden m-3">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Task Manager</span>
-            <img className="h-8 w-auto" src={logo} alt="" />
+            <img className="h-8 w-18" src={logo} alt="" />
           </a>
         </div>
         <AiOutlineMenu onClick={handleNav} className='absolute top-4 right-4 z-[99] md:hidden cursor-pointer' />

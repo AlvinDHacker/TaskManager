@@ -10,7 +10,8 @@
 // )
 
 import React from "react"
-import ReactDOM from "react-dom/client"
+// import ReactDOM from "react-dom/client"
+import ReactDOM from "react-dom"
 import {
   createRoutesFromChildren,
   createBrowserRouter,
@@ -29,18 +30,20 @@ import About from "./pages/About"
 import "./index.css"
 
 const router = createBrowserRouter(createRoutesFromChildren(
-    <Route path="/" element={<MainLayout />} >
-      <Route index element={<Homepage />} />
-      <Route path="scheduler" element={<Scheduler />} />
-      <Route path="calendar" element={<Calendar />} /> 
-      <Route path="results" element={<Results />} />
-      <Route path="about" element={<About />} />
-    </Route>
+  <Route path="/" element={<MainLayout />} >
+    <Route index element={<Homepage />} />
+    <Route path="scheduler" element={<Scheduler />} />
+    <Route path="calendar" element={<Calendar />} />
+    <Route path="results" element={<Results />} />
+    <Route path="about" element={<About />} />
+  </Route>
 ))
 
 function App() {
   return (
-    <RouterProvider router={router} />
+    // <React.StrictMode>
+        <RouterProvider router={router} />
+    // </React.StrictMode>
   )
 }
 
