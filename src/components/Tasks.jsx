@@ -19,7 +19,7 @@ const Tasks = () => {
               </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Released on January 13th, 2022
+              Released on January 13th
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
               Get access to over 20+ pages including a dashboard layout, charts,
@@ -66,19 +66,19 @@ const Tasks = () => {
       <ol class="py-7 items-center sm:flex">
         <li class="relative mb-6 sm:mb-0">
           <div class="flex items-center">
-            <div class="z-[-1] flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+            <div class="z-[1] flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
             <div className="p-2 rounded-full bg-yellow-400 shadow-lg">
                 <BiSun size={23} />
               </div>
             </div>
-            <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+            <div class="z-[-1] hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
           </div>
           <div class="mt-3 sm:pr-8">
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
               Flowbite Library v1.0.0
             </h3>
             <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Released on December 2, 2021
+              Released on December 2
             </time>
             <p class="text-base font-normal text-gray-500 dark:text-gray-400">
               Get started with dozens of web components and interactive
@@ -86,14 +86,14 @@ const Tasks = () => {
             </p>
           </div>
         </li>
-        <li class="relative mb-6 sm:mb-0">
+        <li class="relative mb-6 sm:mb-0 ">
           <div class="flex items-center">
-            <div class="z-[-1] flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+            <div class="z-[1] flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                 <div className="p-2 rounded-full bg-yellow-400 shadow-lg">
                 <BiSun size={23} />
               </div>
             </div>
-            <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+            <div class="z-[-1] hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
           </div>
           <div class="mt-3 sm:pr-8">
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
@@ -110,7 +110,7 @@ const Tasks = () => {
         </li>
         <li class="relative mb-6 sm:mb-0">
           <div class="flex items-center">
-            <div class="z-[-1] flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
+            <div class="z-[1] flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
             <div className="p-2 rounded-full bg-blue-400 shadow-lg">
                 <BiMoon size={23} />
               </div>
