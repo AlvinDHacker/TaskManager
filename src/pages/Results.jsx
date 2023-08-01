@@ -1,16 +1,9 @@
-import Home from "../components/Home"
-import Navbar from "../components/Navbar"
 import Results from "../components/Results"
-import AddTaskForm from "../components/AddTaskForm"
 
 function App() {
   return (
     <div>
-      {/* <Navbar/> */}
-      <p>Results</p>
-      {/* <AddTaskForm/> */}
-      {/* <Home/> */}
-      {/* <Results/> */}
+      <Results/>
     </div>
   )
 }
